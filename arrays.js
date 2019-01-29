@@ -13,6 +13,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 function addElementToEndOfArray(array, element) {
+<<<<<<< HEAD
   return [...array, element]
 }
 function destructivelyAddElementToEndOfArray(array, element) {
@@ -39,3 +40,8 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
   return array
 }
+=======
+  [array, ...element]
+}
+function 
+>>>>>>> 2521ccd06d4edbbffaf010a8782aeeabb2adaac0
